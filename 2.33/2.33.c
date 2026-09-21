@@ -11,19 +11,19 @@ int main(void)
     double gasolineCost;
     double totalCost;
 
-    printf("Total miles driven per day: ");
+    printf("一整天的總里程數: ");
     scanf("%lf", &miles);
 
-    printf("Cost per gallon of gasoline: ");
+    printf("汽油一公升/加侖多少錢: ");
     scanf("%lf", &costPerGallon);
 
-    printf("Average miles per gallon: ");
+    printf("平均一公升/加侖能行駛多少公里: ");
     scanf("%lf", &milesPerGallon);
 
-    printf("Parking fees per day: ");
+    printf("一天的停車費: ");
     scanf("%lf", &parking);
 
-    printf("Tolls per day: ");
+    printf("一天的通行費(過路費): ");
     scanf("%lf", &tolls);
 
     gasolineCost = miles / milesPerGallon * costPerGallon;
